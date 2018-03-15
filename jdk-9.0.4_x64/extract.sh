@@ -1,8 +1,8 @@
 unzip jdk.zip
-unzip bin.zip -d jdk-9.0.4_x86
-unzip lib.zip -d jdk-9.0.4_x86
+unzip bin.zip -d jdk-9.0.4_x64
+unzip lib.zip -d jdk-9.0.4_x64
 unzip modules.zip -d jdk-9.0.4_x64/lib
-unzip jmods.zip -d jdk-9.0.4_x86/jmods
+unzip jmods.zip -d jdk-9.0.4_x64/jmods
 
 for file in `find . -name "*.pack"`
 do
